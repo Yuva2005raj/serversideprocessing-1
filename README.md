@@ -18,6 +18,7 @@ Publish the website in the given URL.
 
 PROGRAM :
 HTML and CSS code:
+```
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -112,7 +113,7 @@ def volumeofcuboid(request):
         context['volume']=volume
     return render(request,"myapp/area.html",context)
 
-
+```
 ## OUTPUT:
 ![rtyu](https://user-images.githubusercontent.com/118343998/215248802-4d4633e9-ad8f-4630-87fa-a55ac2a022d1.png)
 
